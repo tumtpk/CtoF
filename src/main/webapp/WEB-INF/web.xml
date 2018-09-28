@@ -7,7 +7,7 @@
     </listener>
     
     <servlet>
-        <servlet-name>course</servlet-name>
+        <servlet-name>KFC</servlet-name>
         <servlet-class>
         	com.sun.xml.ws.transport.http.servlet.WSServlet
         </servlet-class>
@@ -15,8 +15,8 @@
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>course</servlet-name>
-        <url-pattern>/course</url-pattern>
+        <servlet-name>KFC</servlet-name>
+        <url-pattern>/kfc</url-pattern>
     </servlet-mapping>
     
     <session-config>
